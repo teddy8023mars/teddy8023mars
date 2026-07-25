@@ -25,6 +25,7 @@ Agents aren't a demo topic for me; they're the workshop. Every project below shi
 | 🧸 | [**DeskCat**](https://github.com/teddy8023mars/DeskCat) | 3D companion on your desktop; its head follows your mouse. Procedural SDF-modeled teddy bear, no mesh files | Swift · SceneKit |
 | 📈 | **Intraday Trading Bot** 🔒 | Deterministic US-equities system where **the LLM never touches the order trigger** — layered hard risk controls, shadow-mode validation, six review rounds. *Source private (it trades a real account) — ask me about the architecture* | Python · moomoo API |
 | 🧩 | [**LeetCode Tracker**](https://github.com/teddy8023mars/leetcode-tracker) | Self-hosted practice platform: bilingual sync pipeline, study plans, local sandboxed judge, AI tutor. 130+ tests in CI | TypeScript · React 19 · tRPC · Drizzle |
+| 🔬 | [**Skin Lesion Analysis**](https://github.com/teddy8023mars/Skin-lesion-classification) | Dermoscopy deep learning: U-Net lesion segmentation + EfficientNet multi-class classification | Python · U-Net · EfficientNet |
 
 <sub>Smaller things: [fk_popmart](https://github.com/teddy8023mars/fk_popmart) — Pop Mart restock monitor · the [portfolio site](https://github.com/teddy8023mars/teddy8023mars.github.io) itself — hand-built Three.js, no framework</sub>
 
