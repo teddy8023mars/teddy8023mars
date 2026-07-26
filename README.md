@@ -25,7 +25,7 @@ Agents aren't a demo topic for me; they're the workshop. Every project below shi
 | 🧸 | [**DeskCat**](https://github.com/teddy8023mars/DeskCat) | 3D companion on your desktop; its head follows your mouse. Procedural SDF-modeled teddy bear, no mesh files | Swift · SceneKit |
 | 📈 | **Intraday Trading Bot** 🔒 | Deterministic US-equities system where **the LLM never touches the order trigger** — layered hard risk controls, shadow-mode validation, six review rounds. *Source private (it trades a real account) — ask me about the architecture* | Python · moomoo API |
 | 🧩 | [**LeetCode Tracker**](https://github.com/teddy8023mars/leetcode-tracker) | Self-hosted practice platform: bilingual sync pipeline, study plans, local sandboxed judge, AI tutor. 130+ tests in CI | TypeScript · React 19 · tRPC · Drizzle |
-| 🔬 | [**Skin Lesion Analysis**](https://github.com/teddy8023mars/Skin-lesion-classification) | My first DL project — ISIC 2018 dermoscopy: ResNet50-U-Net segmentation (Jaccard 0.79), six-backbone ablation, hair-removal preprocessing, 7-class classifier | Python · TensorFlow · U-Net |
+| 🔬 | [**Skin Lesion Analysis**](https://github.com/teddy8023mars/Skin-lesion-classification) | My first DL project, retrained in 2026 — all three ISIC 2018 tasks, a concept-bottleneck experiment, a skin-tone fairness audit, and a scored entry on the live [ISIC MILK10k leaderboard](https://challenge.isic-archive.com/leaderboards/milk10k/) (**macro F1 0.422**) | Python · TensorFlow · EfficientNetV2 |
 
 <sub>Smaller things: [fk_popmart](https://github.com/teddy8023mars/fk_popmart) — Pop Mart restock monitor · the [portfolio site](https://github.com/teddy8023mars/teddy8023mars.github.io) itself — hand-built Three.js, no framework</sub>
 
