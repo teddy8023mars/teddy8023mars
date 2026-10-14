@@ -25,11 +25,15 @@ My professional work lives in company repositories. The projects below are perso
 
 Three new personal labs built with AI assistance and synthetic data. Each has a runnable demo, tests and documented limitations.
 
-| Lab | Engineering focus | Inspect an example |
+[![MOBA analytics dashboard preview](https://raw.githubusercontent.com/teddy8023mars/moba-analytics-lab/main/docs/assets/showcase.svg)](https://teddy8023mars.github.io/moba-analytics-lab/)
+
+**Try the demos:** [Player analytics](https://teddy8023mars.github.io/moba-analytics-lab/) · [Failure and recovery replay](https://teddy8023mars.github.io/incremental-load-lab/) · [Quality gate explorer](https://teddy8023mars.github.io/data-quality-gates/)
+
+| Lab | Engineering focus | Demo and evidence |
 |:--|:--|:--|
-| **[MOBA Analytics Lab](https://github.com/teddy8023mars/moba-analytics-lab)** | DuckDB + SQL warehouse; event deduplication, fact grains, D1/D7 cohort retention and payment metrics | [Metric definitions](https://github.com/teddy8023mars/moba-analytics-lab/blob/main/docs/metrics.md) · [Sample outputs](https://github.com/teddy8023mars/moba-analytics-lab/tree/main/examples/report) |
-| **[Incremental Load Lab](https://github.com/teddy8023mars/incremental-load-lab)** | Transactional checkpoints, versioned upserts, tombstones, replay and failure recovery in SQLite | [Rollback and reconciliation demo](https://github.com/teddy8023mars/incremental-load-lab/blob/main/docs/demo-output.json) |
-| **[Data Quality Gates](https://github.com/teddy8023mars/data-quality-gates)** | Declarative CSV contracts; six checks, structured reports and explicit CI exit codes | [Example contract](https://github.com/teddy8023mars/data-quality-gates/blob/main/examples/contract.json) · [Detected violations](https://github.com/teddy8023mars/data-quality-gates/blob/main/docs/dirty-report.json) |
+| **[MOBA Analytics Lab](https://github.com/teddy8023mars/moba-analytics-lab)** | DuckDB + SQL warehouse; event deduplication, fact grains, D1/D7 cohort retention and payment metrics | [Live dashboard](https://teddy8023mars.github.io/moba-analytics-lab/) · [Metric definitions](https://github.com/teddy8023mars/moba-analytics-lab/blob/main/docs/metrics.md) · [Sample outputs](https://github.com/teddy8023mars/moba-analytics-lab/tree/main/examples/report) |
+| **[Incremental Load Lab](https://github.com/teddy8023mars/incremental-load-lab)** | Transactional checkpoints, versioned upserts, tombstones, replay and failure recovery in SQLite | [Interactive replay](https://teddy8023mars.github.io/incremental-load-lab/) · [Recorded evidence](https://github.com/teddy8023mars/incremental-load-lab/blob/main/docs/demo-output.json) |
+| **[Data Quality Gates](https://github.com/teddy8023mars/data-quality-gates)** | Declarative CSV contracts; six checks, structured reports and explicit CI exit codes | [Interactive report](https://teddy8023mars.github.io/data-quality-gates/) · [Example contract](https://github.com/teddy8023mars/data-quality-gates/blob/main/examples/contract.json) · [Detected violations](https://github.com/teddy8023mars/data-quality-gates/blob/main/docs/dirty-report.json) |
 
 ## Selected projects
 
