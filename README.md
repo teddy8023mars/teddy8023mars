@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/teddyczy/">LinkedIn</a> ·
   <a href="https://teddy8023mars.github.io">Interactive portfolio</a> ·
-  <a href="#selected-projects">Explore the code</a>
+  <a href="#data-engineering-labs">Explore the code</a>
 </p>
 
 I’m **Teddy**, a data engineer based in Singapore. At work, I turn product questions into SQL datasets, scheduled pipelines and tools people can use themselves. Outside work, I build things I want on my own desktop.
@@ -20,6 +20,16 @@ I’m **Teddy**, a data engineer based in Singapore. At work, I turn product que
 - **Self-service data tools:** Slack-integrated analytics, OAuth, query authorization and audit logging, with engineering and database partners.
 
 My professional work lives in company repositories. The projects below are personal work you can inspect here.
+
+## Data engineering labs
+
+Three new personal labs built with AI assistance and synthetic data. Each has a runnable demo, tests and documented limitations.
+
+| Lab | Engineering focus | Inspect an example |
+|:--|:--|:--|
+| **[MOBA Analytics Lab](https://github.com/teddy8023mars/moba-analytics-lab)** | DuckDB + SQL warehouse; event deduplication, fact grains, D1/D7 cohort retention and payment metrics | [Metric definitions](https://github.com/teddy8023mars/moba-analytics-lab/blob/main/docs/metrics.md) · [Sample outputs](https://github.com/teddy8023mars/moba-analytics-lab/tree/main/examples/report) |
+| **[Incremental Load Lab](https://github.com/teddy8023mars/incremental-load-lab)** | Transactional checkpoints, versioned upserts, tombstones, replay and failure recovery in SQLite | [Rollback and reconciliation demo](https://github.com/teddy8023mars/incremental-load-lab/blob/main/docs/demo-output.json) |
+| **[Data Quality Gates](https://github.com/teddy8023mars/data-quality-gates)** | Declarative CSV contracts; six checks, structured reports and explicit CI exit codes | [Example contract](https://github.com/teddy8023mars/data-quality-gates/blob/main/examples/contract.json) · [Detected violations](https://github.com/teddy8023mars/data-quality-gates/blob/main/docs/dirty-report.json) |
 
 ## Selected projects
 
