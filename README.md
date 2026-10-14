@@ -1,44 +1,56 @@
-<div align="center">
+<p align="center">
+  <img src="assets/profile-header.svg" alt="Chen Ziyu (Teddy) — Data Engineer, Singapore. Pipelines, analytics and AI applications." width="960">
+</p>
 
-<a href="https://teddy8023mars.github.io"><img src="assets/studio.gif" alt="Teddy's Studio — an interactive 3D portfolio" width="820"></a>
+<p align="center">
+  <a href="https://www.linkedin.com/in/teddyczy/">LinkedIn</a> ·
+  <a href="https://teddy8023mars.github.io">Interactive portfolio</a> ·
+  <a href="#selected-projects">Explore the code</a>
+</p>
 
-### 🐈 [**Walk around my studio →**](https://teddy8023mars.github.io)
+I’m **Teddy**, a data engineer based in Singapore. At work, I turn product questions into SQL datasets, scheduled pipelines and tools people can use themselves. Outside work, I build things I want on my own desktop.
 
-*It's a real 3D room. Click things. The cat watches your cursor.*
-*(In a hurry? There's a "Text version" button.)*
+**Manus AI** · Previously **Tencent Games** · Earlier internship at **Shopee, Search & Recommendation**  
+**M.Sc., Computer Engineering — NUS** · **B.Eng., Electrical & Electronic Engineering — NTU**
 
-</div>
+## What I work on
 
----
+- **Pipelines and warehouse models:** Python, SQL and Airflow; incremental loads, validation, backfills and production troubleshooting.
+- **Product analytics:** subscription and cost data for AI products; player activity, retention and match data from my earlier work on overseas MOBA operations.
+- **Self-service data tools:** Slack-integrated analytics, OAuth, query authorization and audit logging, with engineering and database partners.
 
-# Hi, I'm Teddy (Ziyu C.)
+My professional work lives in company repositories. The projects below are personal work you can inspect here.
 
-I build **real tools with AI agents** — macOS apps, trading systems, and full-stack platforms. Based in Singapore.
+## Selected projects
 
-Agents aren't a demo topic for me; they're the workshop. Every project below ships with `CLAUDE.md` / `AGENTS.md` and was built through spec → TDD → independent adversarial review loops.
+| Project | What I built | Where to start |
+|:--|:--|:--|
+| **[LeetCode Tracker](https://github.com/teddy8023mars/leetcode-tracker)** | A practice app with bilingual problem ingestion, scheduled sync, progress tracking and a local judge. **TypeScript · React · tRPC · MySQL** | [Schema](https://github.com/teddy8023mars/leetcode-tracker/blob/master/drizzle/schema.ts) · [Sync orchestration](https://github.com/teddy8023mars/leetcode-tracker/blob/master/server/sync/orchestrator.ts) · [CI](https://github.com/teddy8023mars/leetcode-tracker/actions/workflows/ci.yml) |
+| **[Skin Lesion Analysis](https://github.com/teddy8023mars/Skin-lesion-classification)** | My first deep-learning project, revisited with segmentation, classification and an evaluation retrospective that documents leakage and failed experiments. **Python · TensorFlow** | [Results and limitations](https://github.com/teddy8023mars/Skin-lesion-classification#results) · [Saved metrics](https://github.com/teddy8023mars/Skin-lesion-classification/blob/main/assets/task3-results.json) |
+| **[QuickMD](https://github.com/teddy8023mars/QuickMD)** | A native macOS Markdown viewer with diagrams, math, live reload and PDF export. **Objective-C · AppKit · WKWebView** | [Screenshot and setup](https://github.com/teddy8023mars/QuickMD) · [Native app](https://github.com/teddy8023mars/QuickMD/blob/main/src/main.m) · [Rendering tests](https://github.com/teddy8023mars/QuickMD/tree/main/test) |
+| **[DeskCat](https://github.com/teddy8023mars/DeskCat)** | A desktop companion with a procedural teddy bear, cursor tracking and idle animations. **Swift · SceneKit** | [English overview](https://github.com/teddy8023mars/DeskCat#english-overview) · [Procedural model](https://github.com/teddy8023mars/DeskCat/blob/main/Sources/DeskCat/TeddyModel.swift) |
 
-## Projects
+The tracker’s judge is for local development, not a hardened public execution service. The skin-lesion project is an experiment, not a clinical tool. Both repositories explain their limitations alongside the implementation.
 
-| | Project | What it is | Stack |
-|---|---|---|---|
-| 📝 | [**QuickMD**](https://github.com/teddy8023mars/QuickMD) | Native macOS Markdown previewer — double-click a `.md`, get instant GFM + Mermaid + LaTeX | Swift · AppKit |
-| 🧸 | [**DeskCat**](https://github.com/teddy8023mars/DeskCat) | 3D companion on your desktop; its head follows your mouse. Procedural SDF-modeled teddy bear, no mesh files | Swift · SceneKit |
-| 📈 | **Intraday Trading Bot** 🔒 | Deterministic US-equities system where **the LLM never touches the order trigger** — layered hard risk controls, shadow-mode validation, six review rounds. *Source private (it trades a real account) — ask me about the architecture* | Python · moomoo API |
-| 🧩 | [**LeetCode Tracker**](https://github.com/teddy8023mars/leetcode-tracker) | Self-hosted practice platform: bilingual sync pipeline, study plans, local sandboxed judge, AI tutor. 130+ tests in CI | TypeScript · React 19 · tRPC · Drizzle |
-| 🔬 | [**Skin Lesion Analysis**](https://github.com/teddy8023mars/Skin-lesion-classification) | My first DL project, retrained in 2026 — all three ISIC 2018 tasks, a concept-bottleneck experiment, a skin-tone fairness audit, and a scored entry on the live [ISIC MILK10k leaderboard](https://challenge.isic-archive.com/leaderboards/milk10k/) (**macro F1 0.422**) | Python · TensorFlow · EfficientNetV2 |
+## Tools I use
 
-<sub>Smaller things: [fk_popmart](https://github.com/teddy8023mars/fk_popmart) — Pop Mart restock monitor · the [portfolio site](https://github.com/teddy8023mars/teddy8023mars.github.io) itself — hand-built Three.js, no framework</sub>
+| At work | In personal projects |
+|:--|:--|
+| Python · SQL · Airflow | TypeScript · React · tRPC |
+| Redshift · TiDB/MySQL · AWS | TensorFlow · Jupyter |
+| Git · pytest · CI/CD | Objective-C · Swift · AppKit · SceneKit |
 
-## Stack
+<details>
+<summary>How I build</summary>
 
-![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-087EA4?logo=react&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?logo=threedotjs&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?logo=anthropic&logoColor=white)
+I use AI coding assistants for implementation and review. I focus on understanding the design, checking the results and documenting the limitations.
 
-## Find me
+</details>
 
-🌐 [teddy8023mars.github.io](https://teddy8023mars.github.io) · 🐙 [@teddy8023mars](https://github.com/teddy8023mars) · EN / 中文 both fine
+## A little outside the warehouse
+
+My [portfolio](https://teddy8023mars.github.io) is a small Three.js studio. Click around the room; the cat follows your cursor. There’s a **Text version** if you’d rather skip the 3D.
+
+<a href="https://teddy8023mars.github.io"><img src="assets/studio.gif" alt="Interactive Three.js studio with project links and a cursor-following cat" width="820"></a>
+
+<sub>Also: [a restock notification tool](https://github.com/teddy8023mars/fk_popmart), diving, and more side projects than spare weekends. English / 中文都可以。</sub>
